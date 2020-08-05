@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+section#corpo {
+    background-color: darkblue;
+    box-shadow: 2px 2px rgb(255, 255, 255);
+}
+/*--------------------*/
+#menu ul {
+    background-color: rgb(30, 129, 196);
+    margin: -10px;
+    padding: 10px;
+}
+#menu ul li {
+    display: inline;
+    font-family: Arial;
+}
+#menu ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+
+    transition: backgrund-color 1s;
+
+}
+#menu ul li a:hover {
+    background-color: rgb(25, 71, 139);
+
+}
+
+body {
+    width: 90%;
+    max-width: 100%;
+    margin: 50 auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif
+}
+
+.box {
+    float: right
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(30, 129, 196);
+  padding: 1em;
+}
+
